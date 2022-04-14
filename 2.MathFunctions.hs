@@ -17,7 +17,11 @@ modEx = mod 5 4
 -- infix operator
 modEx2 = 5 `mod` 4
 
+-- have to write bracket in a negative num in haskell
 negNumEx = 5 + (-4)
+
+-- prefix
+addEx2 = (+) 5 4
 
 -- sqrt:: Floating a => a -> a
 -- have to convert Int to Float
@@ -55,6 +59,9 @@ trueAndFalse = True && False
 trueOrFalse = True || False
 
 notTrue = not True
+
+-- 2 !== 3
+isDifferent = 2 /= 3
 
 {-
 
